@@ -1,0 +1,21 @@
+.home-page {
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.new-data-btn {
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    font-size: 22px;
+    font-weight: 700;
+    background: gold;
+    border-radius: 15px;
+}

@@ -1,0 +1,27 @@
+.search-block{
+    position: relative;
+    .search-films{
+        display: flex;
+        align-items: center;
+        svg {
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .search-films-input{
+            margin-right: 18px;
+            width: 220px;
+            padding: 3px 10px;
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+    }
+    .search-content{
+    position: absolute;
+    width: 320px;
+    height: 550px;
+    overflow-y: scroll;
+    background: white;
+    z-index: 1;
+    }
+}
+
